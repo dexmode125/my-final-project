@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .banner {
     width: 100%;
     margin-bottom: 10px;
@@ -13,7 +16,7 @@
     display: flex;
 }
 .anketa {
-    border: 1px solid black;
+    border: 1px solid red;
     width: 30%;
     padding: 10px;
 }
@@ -27,68 +30,29 @@
 .info h1 {
     width: 100%;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
     margin-top: 0px;
 }
-.anketa h1 {
-    margin: 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.anketa h2 {
-    margin: 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.adress, .telephon, .email {
+.card {
     display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 2px;
+    margin-bottom: 15px;
 }
-.data img {
-    width: 25px;
-    height: 25px;
+.photocard {
     margin-right: 10px;
+    width: 130%;
 }
-.data p {
+.photocard img {
+    width: 100%;
+
+}
+.data {
+    border: 1px solid gray;
+}
+.data h2 {
+    border: 1px solid gray;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
 }
-.one {
-    display: flex;
-    align-self: flex-start;
-    margin-bottom: 30px;
-}
-.illustrate {
-    width: 50%;
-    margin-right: 20px;
-}
-.illustrate img {
+a {
+    border: 1px solid aquamarine;
     width: 100%;
 }
-.illustrate p {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: justify;
-    margin-top: 5px;
-    color: grey;
-}
-.article {
-    width: 80%;
-}
-.article h2 {
-    margin: 0px;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
-}
-.article p {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 5px;
-    text-align: justify;
-} 
