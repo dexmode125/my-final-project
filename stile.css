@@ -1,0 +1,94 @@
+.banner {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.banner img {
+    width: 100%;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+
+    display: flex;
+}
+.anketa {
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+}
+.anketa img {
+    width: 100%;
+}
+.info {
+    width: 70%;
+    margin-left: 10px;
+}
+.info h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+.anketa h1 {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anketa h2 {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adress, .telephon, .email {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2px;
+}
+.data img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.data p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.one {
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+.illustrate {
+    width: 50%;
+    margin-right: 20px;
+}
+.illustrate img {
+    width: 100%;
+}
+.illustrate p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 5px;
+    color: grey;
+}
+.article {
+    width: 80%;
+}
+.article h2 {
+    margin: 0px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+.article p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    text-align: justify;
+} 
